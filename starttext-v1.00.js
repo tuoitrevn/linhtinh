@@ -13,5 +13,5 @@ $(function(){
         
         return this;
     }
-    $('h2.post-content').limit(120);
+    $('.blog_message').limit(120);
 });
