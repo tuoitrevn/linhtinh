@@ -30,5 +30,5 @@ $(function(){
         
         return this;
     }
-    $('.recent-des-v3').limit(150);
+    $('p.recent-des-v3').limit(150);
 });
