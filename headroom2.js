@@ -1,6 +1,6 @@
 (function ($) {
    $(function () {
-       $("#header").headroom({
+       $("nav").headroom({
            // vertical offset in px before element is first unpinned
            offset : 100,
            // or you can specify tolerance individually for up/down scroll
