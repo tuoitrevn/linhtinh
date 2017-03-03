@@ -15,7 +15,12 @@ $(function(){
     }
     $('.blog_message h2.post-content').limit(130);
 });
-
+jQuery(document).ready(function() {
+	jQuery('.ani').addClass("hidden").viewportChecker({
+	    classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
+	    offset: 100    
+	   });   
+}); 
 /*
     Version 1.3.2
     The MIT License (MIT)
